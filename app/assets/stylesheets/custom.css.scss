@@ -1,7 +1,53 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
+  // background-color: black !important;
+  background: rgb(113,182,251);
+  background: radial-gradient(circle, rgba(113,182,251,1) 0%, rgba(246,208,235,1) 49%, rgba(148,187,233,1) 100%);
+}
 
-background-color: #FDF6EA !important;
+.nav-link {
+  color: #b14343 !important;
+}
 
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #b14343;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: asset-url('vintage.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.card{
+  margin-top: 35px;
 }
